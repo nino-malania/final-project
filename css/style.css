@@ -1,0 +1,131 @@
+body {
+	width: 100%;
+	height: 100%;
+	background: #F5F5F5;
+}
+
+.container {
+	width: 1500px;
+	margin: 0 auto;
+}
+
+header {
+	width: 100%;
+	height: 67px;
+	padding: 21px 0;
+	background: #FFF;
+	position: fixed;
+	top: 0;
+    display: flex;
+	z-index: 1;
+}
+
+li {
+    color: var(--black, #0B0706);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: inline-block;
+	margin-right: 40px;
+
+}
+
+ul {
+    margin-left: 437px;
+	display: flex;
+	vertical-align: middle;
+}
+
+a {
+    color: var(--secondary-text, #525560);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.img2 {
+    width: 130px;
+    height: 42px;
+    margin-left: 110px;
+    margin-top: -10px;
+}
+
+.button1{
+    width: 116px;
+    height: 43px;
+    font-size: 15px;
+    font-weight: 900;
+    background-color: #fbcd02;
+    margin-top: -10px;
+    left: 1274.5px;
+    padding: 1px 32px 1px 2px;
+    border-radius: 4px;
+    gap: 10px;
+
+}
+.button1:hover {
+  width: 119px;
+  height: 45px;
+  background-color: #d2ac03;
+}
+
+.section_1 {
+    width: 100%;
+    margin-bottom: 84px;
+  }
+  
+
+.main_image {
+    width: 1500px;
+    height: 735px;
+    background-color: rgb(201, 233, 233);
+    background-image: url("../images/main.jpg");
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+.main_image h1 {
+    width: 640px;
+    height: 231px;
+    margin-top: 100px;
+    margin-left: 110px;
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFF;
+  }
+
+  .main_image p {
+    width: 861.0000000000033px;
+    margin-top: 300px;
+    left: 100px;
+    border: 1px;
+    color: #FFFFFF;
+  }
+  p.groove {border-style: groove;
+    width: 1400px;
+    height: 1px;
+    margin-left: -350px;
+}
+
+  .p1 {
+    display: flex;
+    margin-left: 110px;
+  }
+
+.fa-bars {
+    font-size: 30px;
+    display: none;
+    margin-left: 730px;
+}
